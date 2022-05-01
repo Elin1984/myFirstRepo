@@ -1,0 +1,38 @@
+.main-box{
+    background-color: #232f3e;
+    position: relative;
+    width: 10000px;
+    display: block;
+    height: 80px ;
+    padding-top: 11px;
+   
+}
+
+.logo{
+  width: 70px;
+    height: 29px;
+    margin-left: 20px;
+    padding-top: 7px;
+    background-color: #232f3e;
+
+
+}
+    
+ 
+
+    .top-elment {
+      flex: 620px;
+    margin-bottom: -10px;
+    margin-top: 17px;
+    width: 581.062px;
+    height: 35px;
+    align-items: center;
+    box-sizing: border-box;
+    float: right;
+    padding: 150px 32px;
+    display:flex 
+    font-size: 14px;
+    
+    }
+
+

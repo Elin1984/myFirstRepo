@@ -1,0 +1,31 @@
+*{margin: 0%;}
+
+
+.parant{
+    background-color: blue;
+    height: 200vh;
+    position: relative;
+}
+
+.child-one{
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+
+
+.child-two{
+    background-color: brown;
+    position: fixed;
+    top: 50px;
+    right: 70px;
+}
+
+.child-three{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+
+}

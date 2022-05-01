@@ -1,0 +1,31 @@
+.parent {
+    background: grey;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .child {
+    background: red;
+    width: 50%;
+    height: 50%;
+    animation: left-to-right 5s ease-in forwards infinite alternate;
+  }
+  
+  .parent:hover .child {
+    animation-play-state: paused;
+  }
+  
+  @keyframes left-to-right {
+    0% {
+      background: green;
+      transform: translateX(0);
+    }
+  
+    50% {
+      background: blue;
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
