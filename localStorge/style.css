@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua !important;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 500px !important;
+    box-shadow: 0px 2px 15px 3px #000000;
+    
+}
+
+h3{
+    text-align: center;
+    margin: 15px 0px !important;
+}

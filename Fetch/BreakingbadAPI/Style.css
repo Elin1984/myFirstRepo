@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;400&family=Open+Sans&family=The+Nautigal&display=swap');
+
+.smallimg{
+  width: 100px; 
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  
+}
+
+h1{
+  border-bottom: 2px solid;
+  padding-bottom: 8px;
+  font-size: 50px;
+}
+
+
+body {
+ margin-top: 30px;
+ background-color: rgb(121, 189, 167);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+
+}
+input{
+  margin-top: 30px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+}
+
+
+
+.breakingBadQuotes{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 60%;
+  height: 350px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 3px 8px rgb(103, 59, 102);
+    
+}
+
+h4{
+
+  font-size: 30px;
+  background-color: rgb(11, 8, 8);
+  padding: 25px;
+  
+}
+.quote-container{
+    
+  box-sizing: content-box;
+}
+
+
+
+
+
+  
+
+ 
+  

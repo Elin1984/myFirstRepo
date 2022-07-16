@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+
+:root {
+  --background: #ecf0f1;
+  --main-primary: #e74c3c;
+  --main-primary-dark: #c0392b;
+  --main-secondary: #34495e;
+}
+
+* {
+font-family: "Roboto Flex", sans-serif;
+}
+
+body {
+  background: var(--background);
+  margin-top: 30px;
+  padding: 0 100px;
+}
+
+h1 {
+  border-bottom: 2px solid var(--main-secondary);
+  padding-bottom: 8px;
+}
+
+#randomMeal {
+  background: var(--main-primary);
+  border: 1px solid #ffffff;
+  color: #ffff;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#randomMeal:hover {
+  background: var(--main-primary-dark);
+}
+
+.random-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-container > h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.meal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.meal-info > p {
+  font-size: 1.2rem;
+}
+
+.meal-info > p > span {
+  color: var(--main-primary);
+}
+
+.random-container > img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 500px;
+}
+
+.meal-instructions {
+  padding: 15px;
+}
+
+.random-container > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#searchMeal {
+  margin-right: 20px;
+  height: 40px;
+  width: 200px;
+  font-size: 1.5rem;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.meal-card {
+  width: 200px;
+  background: #ffffff;
+  margin: 10px;
+  height: 300px;
+  border: 3px solid var(--main-primary);
+  border-radius: 8px;
+}
+
+.meal-card:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s;
+}
+
+.meal-card > h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.meal-card > img {
+  width: 100%;
+  object-fit: contain;
+  height: 60%;
+}
+
+.meal-card > p {
+  font-size: 1rem;
+  margin: 10px;
+  padding: 5px;
+}

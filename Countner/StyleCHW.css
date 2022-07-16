@@ -1,0 +1,37 @@
+
+
+h1{
+color: blueviolet;
+display: flex;
+justify-content: center;
+}
+
+.container{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.col {
+background-color: rgb(192, 186, 186);
+border: 2px solid;
+font-size: 3rem;
+margin: 30px;
+padding: 10px 20px 10px 20px;
+
+}
+
+.photoTrain{
+    justify-content: center;
+    
+
+
+}

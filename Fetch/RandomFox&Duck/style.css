@@ -1,0 +1,39 @@
+:root {
+    --white: #ffffff;
+    --blue: #3498db;
+  }
+  
+  body {
+    background: var(--blue);
+  }
+  
+  .form-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    border-radius: 8px;
+  }
+  
+  .checkbox-inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+  }
+  
+  .image-container {
+    background-color: var(--white);
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
